@@ -1,0 +1,21 @@
+# Global System Parameters for Mars-Rover-Control-OS
+
+physics:
+  gravity: 3.721 # m/s^2 (Mars)
+  atmospheric_density: 0.02 # kg/m^3
+
+control:
+  kp: 1.5
+  ki: 0.1
+  kd: 0.05
+  loop_rate: 50 # Hz
+
+perception:
+  lidar_range: 20.0 # meters
+  camera_fov: 120 # degrees
+  confidence_threshold: 0.75
+
+navigation:
+  max_speed: 0.5 # m/s
+  max_turn_rate: 0.3 # rad/s
+  safety_distance: 1.2 # meters

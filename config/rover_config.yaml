@@ -1,0 +1,17 @@
+# Rover Physical Configuration
+
+rover:
+  name: "Ares-Explorer-01"
+  mass: 150.0 # kg
+  dimensions:
+    length: 1.2
+    width: 0.8
+    height: 1.0
+  wheel:
+    radius: 0.15
+    track_width: 0.75
+    count: 6
+  suspension: "rocker-bogie"
+  power:
+    source: "RTG + Solar Hybrid"
+    capacity: 5000 # Wh
